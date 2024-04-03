@@ -17,7 +17,7 @@ git clone https://github.com/maxxdiego/07_react.git
 ```
 
 ```bash
-# Instalar todas as dependências indicadas pelo package.json:
+# Instalar todas as dependências indicadas pelo package.json
 npm install
 
 ```
@@ -29,7 +29,7 @@ npm run dev
 ```
 
 ```bash
-# No navegador acessar a aplicação através do: 
+# No navegador acessar a aplicação através do 
 localhost:3000
 
 ```
@@ -42,7 +42,7 @@ npx create-next-app
 ```
 
 ```bash
-# Acessar o diretório do projeto:
+# Acessar o diretório do projeto
 cd [nome-da-pasta]
 
 ```
