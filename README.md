@@ -29,13 +29,14 @@ npm run dev
 ```
 
 ```bash
-# No navegador acessar as aplicações através do: 
+# No navegador acessar a aplicação através do: 
 localhost:3000
 
 ```
 
 ## SEQUÊNCIA PARA CRIAR UM PROJETO REACT
 ```bash
+# Criar o projeto
 npx create-next-app
 
 ```
