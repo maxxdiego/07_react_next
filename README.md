@@ -16,34 +16,40 @@ git clone https://github.com/maxxdiego/07_react.git
 
 ```
 
-Instalar todas as dependências indicadas pelo package.json:
-
 ```bash
+# Instalar todas as dependências indicadas pelo package.json:
 npm install
 
 ```
 
-Rodar o projeto React
 ```bash
+# Rodar o projeto React
 npm run dev
 
 ```
 
-No navegador acessar as aplicações através do localhost:3000.
+```bash
+# No navegador acessar as aplicações através do: 
+localhost:3000
+
+```
 
 ## SEQUÊNCIA PARA CRIAR UM PROJETO REACT
 ```bash
 npx create-next-app
+
 ```
 
-Acessar o diretório do projeto:
 ```bash
+# Acessar o diretório do projeto:
 cd [nome-da-pasta]
+
 ```
 
-Rodar o projeto React
 ```bash
+# Rodar o projeto React
 npm run dev
+
 ```
 
 # Autor
