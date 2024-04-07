@@ -1,4 +1,4 @@
-# React
+# React (Next)
 ![NPM](https://img.shields.io/npm/l/react)
 # Descrição
 
