@@ -39,7 +39,7 @@ Criar a Models da página home do conteúdo do topo
 ### npx sequelize-cli model:generate --name HomesTops --attributes titleOneTop:string,titleTwoTop:string,titleThreeTop:string,linkBtnTop:string,textBtnTop:string,ImageTop:string
 
 Criar seeders
-### npx sequelize-cli seed:generate --name demo-homestopes
+### npx sequelize-cli seed:generate --name demo-nome-da-seeders
 
 Executar seeders
 ### npx sequelize-cli db:seed:all
