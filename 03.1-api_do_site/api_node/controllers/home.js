@@ -24,12 +24,29 @@ router.get("/", async (req, res) => {
             // where: { id : 100 }
         })
 
+        // Recuperar o registro do banco de dados da tabela HomesServices
+        const homesPremiums = await db.HomesPremiums.findOne({
+            // Indicar quais colunas recuperar
+            attributes: ['premTitle', 'premSubtitle', 'premDesc', 'premBtnText', 'premBtnLink', 'premImage'],
+    
+            // Acrescentar condição para indicar qual registro deve ser retornado do banco de dados
+            // where: { id : 100 }
+        })
+
     // Acessa o IF se encontrar o registro no banco de dados
-    if((homesTops) && (homesServices)) {
+    if((homesTops) && (homesServices) && (homesPremiums)) {
+
+        // console.log(homesTops)
+
+        // Cria o caminho da imagem
+        homesTops.dataValues['imageTop'] = process.env.URL_ADM + "/images/home_top/" + homesTops.dataValues['imageTop']
+        homesPremiums.dataValues['premImage'] = process.env.URL_ADM + "/images/home_prem/" + homesPremiums.dataValues['premImage']
+
         return res.json({
             error: false,
             homesTops,
             homesServices,
+            homesPremiums
         })
     } else {
         return res.status(400).json({

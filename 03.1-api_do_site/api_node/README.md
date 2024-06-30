@@ -55,3 +55,21 @@ Executar down - rollback - Permite que seja uma única seeders, permitindo a ges
 
 Criar a Models da página home do conteúdo dos serviços
 ### npx sequelize-cli model:generate --name HomesServices --attributes servTitle:string,servIconOne:string,servTitleOne:string,servDescOne:string,servIconTwo:string,servTitleTwo:string,servDescTwo:string,servIconThree:string,servTitleThree:string,servDescThree:string
+
+Criar a Models da página home do conteúdo do serviço premium
+### npx sequelize-cli model:generate --name HomesPremiums --attributes premTitle:string,premSubtitle:string,premDesc:text,premBtnText:string,premBtnLink:string,premImage:string
+
+Criar a Models da situação 
+### npx sequelize-cli model:generate --name SituationsAbouts --attributes nameSituation:string
+
+Criar a Models da página sobre empresa
+### npx sequelize-cli model:generate --name AboutsCompanies --attributes title:string,description:text,image:text,situationAboutId:integer
+
+Criar a Models da página contato do conteúdo texto 
+### npx sequelize-cli model:generate --name ContentsContacts --attributes titleContact:string,descContact:string,iconCompany:string,titleCompany:string,descCompany:string,iconAddress:string,titleAddress:string,descAddress:string,iconEmail:string,titleEmail:string,descEmail:string,titleForm:string
+
+Criar a Models da página contato para receber as mensagens de contato 
+### npx sequelize-cli model:generate --name ContactsMsgs --attributes name:string,email:string,subject:string,content:text
+
+Validar formulário
+### npm install -S yup
