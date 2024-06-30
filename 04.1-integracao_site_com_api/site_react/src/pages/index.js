@@ -56,7 +56,7 @@ export default function Home() {
 
   // useEffect é usado para lidar com efeitos colaterais de um componente. Por exemplo, atualizar o estado do componente, fazer chamadas a APIs, manipular eventos, entre outros.
   useEffect(() => {
-        // Chamar a função ocm requisição para API
+        // Chamar a função com requisição para API
         getHome()
   }, [])
 
@@ -71,8 +71,8 @@ export default function Home() {
       <main>
         <Menu />
         <HomeTop homesTops={homesTops}/>
-        <HomeServices />
-        <HomePremium />
+        <HomeServices homesServices={homesServices}/>
+        <HomePremium homesPremiums={homesPremiums}/>
       </main>
       <Footer />
     </>

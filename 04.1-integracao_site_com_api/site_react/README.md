@@ -22,3 +22,6 @@ Dependência de ícones
 
 Axios é uma biblioteca de client HTTP que permite fazer requisições a API
 ### npm install axios
+
+Validar campo do formulário
+### npm install --save yup

@@ -9,7 +9,7 @@ const HomeTop = ({homesTops}) => {
     <section className={`imgTop ${styles.content} ${styles.top}`}>
         <style>
             {`.imgTop{
-                background: linear-gradient(to right, var(--main-color) 25%, rgba(255, 255, 255, 0)), url(/images/homeTop/banner_top.jpg) no-repeat center;
+                background: linear-gradient(to right, var(--main-color) 25%, rgba(255, 255, 255, 0)), url(${homesTops.imageTop ? homesTops.imageTop : ""}) no-repeat center;
             }`}
         </style>
         <div className={styles.maxWidth}>
