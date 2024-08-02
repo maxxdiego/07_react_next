@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/fav_icon.ico" type="image/x-icon">
+    <title>The Games &copy; 2024</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+        <!-- CONTAINER -->
+        <div class="containerCover">
+            <div class="container">
+                <!-- CONTENT -->
+                <div class="loginContent">
+                    <!-- LOGO -->
+                    <div class="logo">
+                        <img src="images/thegames_logo.png" class="logoImg" alt="The Games">
+                    </div>
+                    <!-- LOGIN CARD -->
+                    <div class="loginCard">
+                        <!-- LOGIN CARD HEADER -->
+                        <div class="loginCardHeader">
+                            <h3>Faça seu login:</h3>
+                        </div>
+                        <!-- LOGIN CARD BODY-->
+                        <div class="loginCardBody">
+                            <form class="form">
+                                <input type="email" name="email" id="email" placeholder="Digite seu e-mail"
+                                    class="inputPrimary">
+                                <input type="password" name="password" id="password" placeholder="Digite sua senha"
+                                    class="inputPrimary">
+                                <input type="button" value="Entrar" onclick="login()" class="btnPrimary">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+        <div class="footerContent">
+            <!-- FOOTER LEFT -->
+            <div class="footerLeft">
+                <ul class="footerItems">
+                    <li>Português (Brasil)</li>
+                    <li>English (US)</li>
+                    <li>Español</li>
+                    <li>Français (France)</li>
+                    <li>Italiano</li>
+                    <li>Deutsch</li>
+                    <li>العربية</li>
+                    <li>हिन्दी</li>
+                    <li>中文(简体)</li>
+                    <li>日本語</li>
+                </ul>
+            </div>
+            <!-- FOOTER RIGHT -->
+            <div class="footerRight">
+                <ul>
+                    <li>The Games &copy; 2024</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="javascript/auth.js"></script>
+
+</html>
