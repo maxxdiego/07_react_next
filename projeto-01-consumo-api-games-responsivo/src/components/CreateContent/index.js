@@ -73,7 +73,7 @@ const CreateContent = () => {
           onChange={(e) => setYear(e.target.value)}
         />
         <input
-          type="text"
+          type="number"
           name="price"
           id="price"
           placeholder="Insira o preço do jogo"

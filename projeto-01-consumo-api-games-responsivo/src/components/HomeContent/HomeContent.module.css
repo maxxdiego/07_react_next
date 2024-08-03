@@ -23,6 +23,13 @@
   border-radius: 0.5rem;
 }
 
+.homeContent .listGamesCard .title {
+  font-family: "Poppins";
+  color: var(--secondary-color);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
 .homeContent .listGamesCard .games {
   display: grid;
   grid-template-columns: 17% 17% 17% 17% 17%;
@@ -151,38 +158,42 @@
   }
 
   .homeContent .listGamesCard .title {
-    margin-top: 6rem;
+    margin-top: 4rem;
   }
 
   .homeContent .listGamesCard .games {
     grid-template-columns: 1fr;
-    gap: 6rem;
+    gap: 1rem;
   }
 
   .homeContent .listGamesCard .games img {
     border: none;
-    width: 80%;
-    margin-top: 2.5rem;
+    width: 85%;
     filter: none;
+    margin-left: -5%;
   }
 
   .homeContent .listGamesCard .games img:hover {
     box-shadow: none;
   }
 
-  .homeContent .listGamesCard .games .btnDel {
+  /* .homeContent .listGamesCard .games .btnDel {
     display: none;
   }
 
   .homeContent .listGamesCard .games .btnEdit {
     display: none;
-  }
+  } */
 
   .homeContent .listGamesCard .games .listGames {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
+  }
+
+  .homeContent .listGamesCard .games .listGames .gameImg {
+    text-align: center;
+    width: 40%;
   }
 
   .editContent {

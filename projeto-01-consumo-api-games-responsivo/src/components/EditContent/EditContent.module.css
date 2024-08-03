@@ -1,6 +1,6 @@
 /* Início conteúdo Edição */
 .editModal {
-  display: none;
+  display: block;
   position: fixed;
   z-index: 20;
   left: 0;
@@ -11,15 +11,6 @@
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.7);
 }
-
-/* .editModal {
-  display: block;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.7);
-} */
 
 .editContent {
   background-color: var(--fourth-color-alpha);
@@ -57,6 +48,7 @@
 @media (max-width: 768px) {
   .editContent {
     width: 90%;
+    margin-top: 12rem;
   }
 }
 
